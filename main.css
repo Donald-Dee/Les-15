@@ -1,0 +1,95 @@
+
+
+body{
+    background-color: yellow;
+    text-align: center;
+    Font-family: Verdana, sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    margin: auto;
+}
+
+#inbody{
+    background-color: white;
+    width: 800px;
+    margin:0 auto;
+    padding: 20px;
+}
+
+#hb, #cb, #mb{
+    font-family: inherit;
+    font-size: inherit;
+    display: inline-block;
+    margin: 0 10px;
+    margin-bottom: 30px;
+      
+}
+
+a.button{
+
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+a.button:hover{
+        background-color: red;
+        color: yellow;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+
+input[type="text"], 
+input[type="email"], 
+textarea, select, #Submit{
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+    padding: 15px 4px;
+    box-shadow: inset 2px 4px 7px yellow;
+}
+
+textarea{ 
+    display: block;
+    width: 400px;
+    height: 200px;
+    margin: 20px auto;
+    padding: 5px 4px;
+    
+}
+
+
+#one table,
+#two table,
+#three table {
+margin: 0 auto;
+text-align: left;
+padding: 5px;
+
+}
+
+#three table {
+    width: 400px;
+    
+    }
+
+#one,
+#two,
+#three {
+    margin-bottom: 40px; 
+    margin-top: 40px;
+    padding: 5px;
+}
+
+
+footer{
+    padding: 150px;
+}
